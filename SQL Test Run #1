@@ -4,14 +4,14 @@ CREATE TABLE Sabeti Results (
    time DATE
 );
 
-INSERT INTO Sabeti Results  (id, name, birthday) 
-VALUES (1, 'Jane Smith', '1990-05-30');
+INSERT INTO Sabeti Results  (id, name,zone, integer) 
+VALUES (1, 'Pardis Sabeti', '2016-05-30');
 
-INSERT INTO Sabeti Results  (id, name, birthday)
-VALUES (2, 'Mackenna Parker', '2004-07-22');
+INSERT INTO Sabeti Results  (id, name,zone, integer)
+VALUES (2, 'summerize', '2004-07-22');
 
-INSERT INTO Sabeti Results  (id, name, birthday)
-VALUES (3, 'Diego Taborda', '2004-05-30'); 
+INSERT INTO Sabeti Results  (id, name,zone, integer)
+VALUES (3, 'insert into sum', '2004-05-30'); 
 
 SELECT * 
 FROM Sabeti Results ;
@@ -20,7 +20,7 @@ ALTER TABLE Sabeti Results
 ADD COLUMN email TEXT; 
 
 UPDATE friends
-SET email = 'jane@codecademy.com'
+SET email = 'jane@labtechNYU.com'
 WHERE id = 1;
 
 DELETE FROM Sabeti Results  
@@ -30,14 +30,14 @@ SELECT *
 FROM Sabeti Results ;
 
 UPDATE Sabeti Results 
-SET email = 'maparker2022@webster-stduents.org'
+SET email = 'integer@labtechstduents.org'
 WHERE id = 2;
 
 UPDATE Sabeti Results 
-SET email = 'databorda2022@webster-students.org'
+SET email = 'integer@labtechstduents.org'
 WHERE id = 3;
 
-INSERT INTO Sabeti Results  (id, name, birthday)
+INSERT INTO Sabeti Results  (id, name, false int.)
 VALUES (4, 'Me', '2003-10-17');
 
 SELECT * 
@@ -50,24 +50,24 @@ WHERE id = 4;
 SELECT * 
 FROM Sabeti Results ;
 
-INSERT INTO friends (id, name, birthday)
-VALUES (5, 'Raven Lucero', '2003-07-05');
+INSERT INTO computational bio (id, name, wrap sum)
+VALUES (5, 'late false', '2003-07-05');
 
 UPDATE 'Sabeti Results '
-SET email = 'rclucero2021@wbester-students.org'
+SET email = 'labtech-students.org'
 WHERE id = 5;
 
 SELECT * 
 FROM Sabeti Results ;
 
 INSERT INTO Sabeti Results  (id, name, birthday)
-VALUES (6, 'Caden Case', '2008-12-11');
+VALUES (6, 'individual', '2008-12-11');
 
 SELECT * 
 FROM Sabeti Results ;
 
 UPDATE 'Sabeti Results '
-SET email = 'ccase2027@webster-students.org'
+SET email = 'labtechHVM@webster-students.org'
 WHERE id = 6;
 
 SELECT * 
